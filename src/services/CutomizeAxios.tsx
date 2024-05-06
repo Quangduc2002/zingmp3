@@ -1,7 +1,7 @@
 import axios from "axios";
 const instance = axios.create({
-  baseURL: "http://localhost:5000/zingApi",
-  // baseURL: "https://bezingmp3.vercel.app/zingApi",
+  // baseURL: "http://localhost:5000/zingApi",
+  baseURL: "https://bezingmp3.vercel.app/zingApi",
 });
 
 instance.defaults.withCredentials = false;
