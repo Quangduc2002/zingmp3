@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "linebreak-style": "off",
+
+    "@typescript-eslint/no-explicit-any": ["off"]
+  }
+}
